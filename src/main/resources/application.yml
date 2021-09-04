@@ -1,1 +1,20 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /smsverify
+spring:
+  application:
+    name: smsverify
 
+  redis:
+    host: 192.168.1.108
+    port: 6379
+    lettuce:
+      shutdown-timeout: 100
+      pool:
+        max-active: 8
+        min-idle: 0
+        max-idle: 8
+        max-wait: 10000
+    timeout: 10000
+    password:

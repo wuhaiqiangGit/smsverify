@@ -1,4 +1,4 @@
-package com.whq.mvc.smsverify;
+package com.whq.mvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
